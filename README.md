@@ -10,6 +10,7 @@ This project is a comprehensive pipeline for training, testing, and deploying a 
 .
 ├── README.md
 ├── main.py
+├── load_model.ipynb
 ├── pipelines/
 │   ├── data_prepare_pipeline.py
 │   ├── train_pipeline.py
