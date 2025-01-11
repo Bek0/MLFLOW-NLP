@@ -15,9 +15,7 @@ This project is a comprehensive pipeline for training, testing, and deploying a 
 │   ├── train_pipeline.py
 │   └── prediction_pipeline.py
 ├── comments.csv
-├── requirements.txt
-├── mlruns/
-└── models/
+└── requirements.txt
 ```
 
 ## Files and Components
@@ -149,6 +147,29 @@ Handles real-time predictions, enabling the trained model to classify unseen tex
 - Predictions with confidence scores, making the pipeline suitable for real-world deployment.
 
 ---
+
+#### `load_model.ipynb`
+A Jupyter Notebook designed for testing and exploring predictions with the trained sentiment analysis model.
+
+##### Workflow:
+1. **Model Loading**:
+   - Uses MLflow to load the latest version of the trained model.
+   - Example model URI: `"models:/sentimentAnalysis@challenger"`.
+   - The model is fetched directly from the MLflow Model Registry.
+
+2. **Pipeline Integration**:
+   - Creates a prediction pipeline by integrating the loaded model with `model_prediction_pipeline`.
+
+3. **Prediction Functionality**:
+   - **`predict_sentiment(text)`**:
+     - Accepts a text input and returns:
+       - Predicted sentiment (`Positive` or `Negative`).
+       - Associated probabilities for each class (`negative_probability` and `positive_probability`).
+
+4. **Batch Predictions**:
+   - Demonstrates how to process a list of texts for sentiment predictions in a loop.
+   - Outputs predictions and associated probabilities in a structured format.
+
 
 ### Additional Notes
 - The project integrates **MLflow** for experiment tracking, model versioning, and deployment readiness.
