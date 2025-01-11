@@ -18,6 +18,7 @@ This project is a comprehensive pipeline for training, testing, and deploying a 
 ├── requirements.txt
 ├── mlruns/
 └── models/
+```
 
 ## Files and Components
 
