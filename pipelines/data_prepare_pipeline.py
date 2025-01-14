@@ -8,6 +8,10 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.pipeline import Pipeline
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('stopwords')
 
 class TextCleaner(BaseEstimator, TransformerMixin):
     """Transformer for cleaning text data"""
