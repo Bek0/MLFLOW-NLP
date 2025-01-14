@@ -12,8 +12,9 @@
       3. [prediction_pipeline.py](#prediction_pipelinepy)
    3. [load_model.ipynb](#load_modelipynb)
 4. [Data Requirements](#data-requirements)
-6. [Example Dataset Structure](#example-dataset-structure)
-5. [Additional Notes](#additional-notes)
+5. [Example Dataset Structure](#example-dataset-structure)
+6. [Notes](#notes)
+7. [Additional Notes](#additional-notes)
 
 
 ## Overview
