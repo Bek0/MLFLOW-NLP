@@ -1,5 +1,23 @@
 # Sentiment Analysis Project
 
+# Table of Contents
+
+1. [Overview](#overview)
+2. [Directory Structure](#directory-structure)
+3. [Files and Components](#files-and-components)
+   1. [main.py](#mainpy)
+   2. [pipelines/](#pipelines)
+      1. [data_prepare_pipeline.py](#data_prepare_pipelinepy)
+      2. [train_pipeline.py](#train_pipelinepy)
+      3. [prediction_pipeline.py](#prediction_pipelinepy)
+   3. [load_model.ipynb](#load_modelipynb)
+4. [Data Requirements](#data-requirements)
+   1. [Text Column (body)](#text-column-body)
+   2. [Sentiment Column (sentiment)](#sentiment-column-sentiment)
+   3. [Example Dataset Structure](#example-dataset-structure)
+5. [Additional Notes](#additional-notes)
+
+
 ## Overview
 This project is a comprehensive pipeline for training, testing, and deploying a sentiment analysis model using Natural Language Processing (NLP) techniques. The project integrates several stages, from data preprocessing to model training, evaluation, and deployment using **MLflow** for model tracking and management.
 
