@@ -12,9 +12,9 @@
       3. [prediction_pipeline.py](#prediction_pipelinepy)
    3. [load_model.ipynb](#load_modelipynb)
 4. [Data Requirements](#data-requirements)
-   1. [Text Column (body)](#text-column-body)
-   2. [Sentiment Column (`sentiment`)](#sentiment-column-sentiment)
-   3. [Example Dataset Structure](#example-dataset-structure)
+   1. [Text Column](#text-column-body)
+   3. [Sentiment Column](#sentiment-column-(`sentiment`))
+   4. [Example Dataset Structure](#example-dataset-structure)
 5. [Additional Notes](#additional-notes)
 
 
