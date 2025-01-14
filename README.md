@@ -14,7 +14,7 @@
 4. [Data Requirements](#data-requirements)
    1. [Text Column](#text-column)
    2. [Sentiment Column](#sentiment-column)
-   3. [Example Dataset Structure](#example-dataset-structure)
+6. [Example Dataset Structure](#example-dataset-structure)
 5. [Additional Notes](#additional-notes)
 
 
@@ -197,11 +197,11 @@ A Jupyter Notebook designed for testing and exploring predictions with the train
 
 To use this pipeline for training the sentiment analysis model, your dataset must meet the following requirements:
 
-1. **Text Column**:
+1. **Text Column**
    - The dataset must contain a column named `body` that stores the raw text data.
    - This column will be used as the input for text preprocessing and feature extraction.
 
-2. **Sentiment Column**:
+2. **Sentiment Column**
    - The dataset must contain a column named `sentiment` that stores the sentiment labels as numerical values.
    - The sentiment values should be in the range of `-1` to `1`, where:
      - **Negative Sentiment**: Values closer to `-1` (e.g., `-0.8`, `-0.5`).
